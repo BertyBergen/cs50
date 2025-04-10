@@ -1,0 +1,21 @@
+.logo {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.bg-color {
+  background-color: rgb(73, 5, 73);
+}
+.general-btn {
+  background-color: rgb(73, 5, 73);
+}
+
+.home-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url('../images/flowers.webp');
+  background-size: contain;
+  background-position: top;
+}

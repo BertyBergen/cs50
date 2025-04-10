@@ -1,0 +1,26 @@
+sort1 uses: bubble sort
+
+How do you know?: At first, I thought that Bubble Sort would take much longer to sort a reversed array, but in this case, sorting a random array took twice as much time as sorting a reversed one.
+
+sort2 uses: Merge sort
+
+How do you know?: it tooks approximately much lower seconds to sort any of text files.
+
+sort3 uses: selection sort
+
+How do you know?: every sorted texts took approximately much higher seconds to solve the problem
+
+SORTED
+    sort1 - 1,386
+    sort2 - 2,343
+    sort3 - 4,139
+
+RANDOM
+    sort1 - 8,4
+    sort2 - 1,05
+    sort3 - 4,5
+
+reversed
+    sort1 - 5,9
+    sort2 - 1,9
+    sort3 - 4,7

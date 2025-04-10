@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      html {
+        height: 100%;
+      }
+      body {
+        height: 100%;
+        background: linear-gradient(0deg, #0d343a, #000000);
+        margin: 0;
+        overflow: hidden;
+      }
+
+      .drop {
+        background: linear-gradient(0deg, #0d343a, #ffffff99);
+        width: 1px;
+        height: 89px;
+        position: absolute;
+        bottom: 200px;
+        animation: fall 0.63s linear infinite;
+        overflow: hidden;
+      }
+
+      @keyframes fall {
+        to {
+          transform: translateY(200vh);
+        }
+      }
+    </style>
+    <title>Rain</title>
+  </head>
+
+  <body>
+    <section class="rain"></section>
+    <script src="scripts/rain.js"></script>
+  </body>
+</html>
